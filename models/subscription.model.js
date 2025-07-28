@@ -24,7 +24,7 @@ const subscriptionSchema = new mongoose.Schema(
     },
     category: {
       type: String,
-      enum: ["sports", "news", "entertainments", "lifestyle", "technology", "other"],
+      enum: ["Sports", "News", "Entertainments", "Lifestyle", "Technology", "Other"],
       required: true,
     },
     status: {
